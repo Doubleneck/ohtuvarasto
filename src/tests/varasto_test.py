@@ -93,6 +93,6 @@ class TestVarasto(unittest.TestCase):
 
     def test_ottaminen_str_palauttaa_oikean_printtaukse(self):
         printti = self.varasto.__str__()
-        self.assertEqual(printti, 'saldo = 0, vielä tilaa 10')
+        self.assertEqual(printti, 'saldo = 0, vielä tilaa 100')
         
 
