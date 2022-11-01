@@ -4,7 +4,7 @@ class Varasto:
             self.tilavuus = tilavuus
         else:
             # virheellinen, nollataan
-            #testimuutos 3
+            #testimuutos 4
             self.tilavuus = 0.0
         
         if alku_saldo < 0.0:
